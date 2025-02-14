@@ -1,0 +1,25 @@
+{
+  "name": "rsb",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@elastic/eui": "^99.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wcwidth": "^1.0.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.2.4",
+    "@rsbuild/plugin-react": "^1.1.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@types/wcwidth": "^1.0.2",
+    "typescript": "^5.7.3"
+  }
+}
